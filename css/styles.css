@@ -1,28 +1,19 @@
 :root{
---main-font:Roboto,sans-serif;
+--main-font: Roboto ,sans-serif;
 --main-txt-cl: #212121;
-
+--secondary-font: Raleway;
+--accent-txt-cl: #2196F3;
 
 }
 .page{
 color: var(--main-txt-cl);
 text-decoration: none;
-
+font-family: var(--main-font);
 font-size: 14px;
-}
-.btn{
-    background-color: rgb(90, 177, 206);
-    color: white;
-    position: absolute;
-    width: 216px;
-    height: 50px;
-    left: 692px;
-    top: 430px;
 }
 .accent{
     text-decoration: none;
-    font-family: 'Raleway';
-    font-style: normal;
+    font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -34,8 +25,7 @@ font-size: 14px;
 }
 .logo{
     text-decoration: none;
-    font-family: 'Raleway';
-    font-style: normal;
+    font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -43,9 +33,103 @@ font-size: 14px;
     
     letter-spacing: 0.03em;
     
-    color: black;
+    color: var(--main-txt-cl);
 }
 
 .link{
     text-decoration: none;
+    color: currentColor;
+}
+.list{
+    list-style: none;
+}
+
+.header .link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+
+    color: var(--main-txt-cl);
+}
+.header .link:hover,
+.header .link:focus{
+    
+   color: var(--accent-txt-cl);
+}
+.section{
+    background: #2F303A;
+    
+}
+.section .btn{
+    background-color: rgb(90, 177, 206);
+    
+    position: absolute;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+}
+.title{
+    color: #FFFFFF;
+    font-family: var(--main-font);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60 / 44);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.subtitle{
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--main-txt-cl);
+}
+.text{
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+.desc{
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.subject{
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--main-txt-cl);
+}
+.name{
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl);
 }

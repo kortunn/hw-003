@@ -110,13 +110,17 @@ img{
 }
 .hero{
     background: var(--background-page);
+    padding-bottom: 200px;
+    padding-top: 200px;
     
 }
 .hero .btn{
     width: 216px;
     min-height: 50px;
-    padding: 10px 32px;
-    background-color: rgb(90, 177, 206);
+    padding: 10px;
+    background-color: #2196F3;
+    margin-left: auto;
+    margin-right: auto;
     
    
     border-radius: var(--btn-radius);
@@ -126,6 +130,7 @@ img{
     letter-spacing: 0.06em;
     color: var(--white-tx-cl);
     cursor: pointer;
+    border: none;
     
 }
 .info-list{
@@ -143,6 +148,10 @@ img{
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
 }
 
 .subtitle{
@@ -220,6 +229,9 @@ img{
     color: var(--white-tx-cl);
 }
 .caption{
+    margin-top: 20px;
+    margin-right: 24px;
+    margin-left: 24px;
     font-family: var(--main-font);
     font-weight: 700;
     font-size: 18px;
@@ -242,10 +254,15 @@ footer{
     color: var(--secondary-tx-cl);
 }
 .footer-list{
+    margin-top: 20px;
     font-style: normal;
     list-style: none;
 }
 .list-text{
+    margin-top: 4px;
+    margin-right: 24px;
+    margin-left: 24px;
+    margin-bottom: 20px;
     font-family: var(--main-font);
     font-size: 16px;
     line-height: calc(30 / 16);
@@ -258,9 +275,7 @@ footer{
 .list-item-mail{
     margin-right: 50px;
 }
-.list-item{
-    margin: 32px,50px;
-}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -279,3 +294,20 @@ footer{
   .team-subtitle{
     padding-bottom: 10px;
   }
+  .btn-list{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 94px;
+  }
+  .card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 34px;
+  }
+.portfolio-item{
+    width: 370px;
+    height: 404px;
+}
+

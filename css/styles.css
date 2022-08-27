@@ -60,7 +60,7 @@ img{
     height: auto;
 }
 .container{
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-right: auto;
@@ -88,6 +88,10 @@ img{
 }
 
 .header .link{
+    padding-top: 32px;
+    padding-right: 15px;
+    padding-bottom: 32px;
+    padding-left: 15px;
     font-weight: 500;
     
     line-height: calc(16 / 14);
@@ -133,6 +137,7 @@ img{
     border: none;
     
 }
+
 .info-list{
     display: flex;
     gap: 30px;
@@ -246,8 +251,11 @@ img{
     gap: 30px;
 }  
 footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
     list-style: none;
     font-family: var(--main-font);
+    background-color: #2F303A;
 }
 .list-item-tel .link,
 .list-item-mail .link{
@@ -276,6 +284,7 @@ footer{
     margin-right: 50px;
 }
 
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -289,10 +298,14 @@ footer{
     overflow: hidden;
   }
   .names{
-    padding: 30px 70px;
+    padding: 30px ;
+    text-align: center;
   }
   .team-subtitle{
     padding-bottom: 10px;
+  }
+  .team{
+    background-color: #F5F4FA;
   }
   .btn-list{
     display: flex;
@@ -310,4 +323,36 @@ footer{
     width: 370px;
     height: 404px;
 }
+.list-item-address{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
 
+
+    letter-spacing: 0.03em;
+
+    color: var(--white-tx-cl);
+    margin-bottom: 9px;
+}
+.list-item-footer-mail{
+    margin-bottom: 9px;
+    font-size: 14px;
+    line-height: calc(24 /14);
+
+
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+.list-item-footer-tel{
+    font-size: 14px;
+    line-height: calc(24 /14);
+
+
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-container{
+    padding-left: 215px;
+}

@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -27,10 +31,10 @@
         </nav>
         <ul class="list contact-list">
           <li class="list-item-mail">
-            <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="link header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li class="list-item-tel">
-            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="link header-tel" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </div>
@@ -42,7 +46,7 @@
           <button type="button" class="btn">Замовити послугу</button>
         </div>
       </section>
-      <section>
+      <section class="section">
         <div class="container info-container">
           <h2 class="visually-hidden">Особливості</h2>
           <ul class="list info-list">
@@ -71,7 +75,7 @@
           </ul>
         </div>
       </section>
-      <section class="photo">
+      <section class="photo section">
         <div class="container">
           <h2 class="subject">Чим ми займаємося</h2>
           <ul class="list pic-list">
@@ -97,7 +101,7 @@
           </ul>
         </div>
       </section>
-      <section class="team">
+      <section class="team section">
         <div class="container team-container">
           <h2 class="subject">Наша команда</h2>
           <ul class="team-list">
@@ -162,15 +166,15 @@
         <a class="logo" href=""><span class="accent">Web</span>Studio</a>
         <address>
           <ul class="footer-list">
-            <li><a class="list-item-address link" href=""> м. Київ,пр-т Лесі Українки, 26</a></li>
-
-            <li>
-              <a class="list-item-footer-mail link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+            <li class="footer-list">
+              <a class="list-item link" href=""> м. Київ,пр-т Лесі Українки, 26</a>
             </li>
-            <li>
-              <a class="list-item-footer-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+
+            <li class="footer-list">
+              <a class="list-item link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="footer-list">
+              <a class="list-item link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
           </ul>
         </address>

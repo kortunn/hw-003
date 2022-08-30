@@ -384,3 +384,14 @@ color: rgba(255, 255, 255, 0.6);
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
 }
+.list-item-footer-tel{
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.03em;
+}
+.list-item-footer-mail{
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.03em;
+}
+.footer-logo{
+    color: var(--white-tx-cl);
+}

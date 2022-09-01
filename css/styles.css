@@ -240,6 +240,7 @@ img{
     color: var(--white-tx-cl);
 }
 .caption{
+    margin-bottom: 4px;
 
     font-family: var(--main-font);
     font-weight: 700;
@@ -312,9 +313,11 @@ footer{
     display: flex;
     justify-content: center;
     gap: 8px;
+    margin-bottom: 50px;
    
   }
   .card-container{
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;

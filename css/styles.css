@@ -87,8 +87,7 @@ img{
 .header-list{
     display: flex;
     gap: 50px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+   
     
 }
 .contact-list{
@@ -97,6 +96,7 @@ img{
 }
 
 .header .link{
+    display: block;
     padding-top: 32px;
     
     padding-bottom: 32px;
@@ -181,9 +181,7 @@ img{
 .text{
     font-family: var(--main-font);
     
-    
     line-height: calc(24 / 14);
-    line-height: 19px;
     
     letter-spacing: 0.03em;
 
@@ -268,7 +266,7 @@ footer{
     color: var(--secondary-tx-cl);
 }
 .footer-list{
-    margin-top: 20px;
+    
     font-style: normal;
     list-style: none;
 }
@@ -300,7 +298,8 @@ footer{
     overflow: hidden;
   }
   .names{
-    padding: 30px 0;
+    margin: 30px 0;
+   
     text-align: center;
   }
   .team-subtitle{
@@ -369,8 +368,7 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 .header{
-    padding-top: 32px;
-    padding-bottom: 32px;
+   
     border-bottom: 1px solid #ECECEC;
     
 }
@@ -394,4 +392,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 .footer-logo{
     color: var(--white-tx-cl);
+}
+.names-text{
+    line-height: calc(24 / 16);
 }

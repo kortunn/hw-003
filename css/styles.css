@@ -125,7 +125,14 @@ img{
     background: var(--background-page);
     padding-bottom: 200px;
     padding-top: 200px;
+    background-image: url(../images/hero/Img\ \(9\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-width: 1600px;
     
+    margin-right: auto;
+    margin-left: auto;
 }
 .hero .btn{
     width: 216px;
@@ -260,6 +267,7 @@ img{
     list-style: none;
     display: flex;
     gap: 30px;
+    
 }  
 footer{
     padding-top: 60px;
@@ -364,6 +372,8 @@ footer{
 }
 .team-item{
     background-color: var(--white-tx-cl);
+    
+    
 }
 .footer-list:not(:last-child){
 
@@ -404,4 +414,46 @@ color: rgba(255, 255, 255, 0.6);
 }
 .names-text{
     line-height: calc(24 / 16);
+}
+.social{
+    
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.icon{
+    width: 20px;
+    fill: #AFB1B8;
+}
+
+.socials-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 50%;
+    background-color: var(--white-tx-cl);
+    
+}
+/*
+.social-item :hover,
+.social-item  :focus{
+    background-color:var(--accent-txt-cl);
+    fill: var(--white-tx-cl);
+}*/
+.social-item:hover .icon{
+    fill: var(--white-tx-cl);
+    background-color:var(--accent-txt-cl);
+}
+/*
+.list-item-group::before{
+    display: block;
+    content: '';
+    height: 120px;
+    width: 270px;
+    background-image: url(../images/icons/astronaut.svg);
+}*/
+.social-item{
+    width: 44px;
+    height: 44px;
 }

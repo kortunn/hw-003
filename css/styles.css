@@ -238,7 +238,7 @@ img{
 .btn-close{
     transition: fill 250ms var(--timing-funcion);
 }
-.modal-btn:focus + .btn-close{
+.modal-btn:hover{
     fill: var(--accent-txt-cl);
 }
 .is-hidden{
@@ -248,11 +248,12 @@ img{
 }
 /* form */
 label{
-    display: block;
+    display: flex;
 }
 .strong{
-    display: block;
     margin-bottom: 12px;
+    display: block;
+    
     
     font-weight: 700;
     font-size: 20px;
@@ -266,9 +267,11 @@ label{
     margin-bottom: 20px;
 }
 .register-form-agreement{
+    gap: 8px;
     display: flex;
     text-align: center;
     justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
 }
 .register-form-btn{
@@ -281,6 +284,7 @@ label{
     position: relative;
 }
 .register-form-label{
+    color: var(--secondary-tx-cl);
     display: block;
     font-size: 12px;
     line-height: calc(14 / 12);
@@ -798,9 +802,10 @@ color: rgba(255, 255, 255, 0.6);
 }
 .footer-submit{
     display: flex;
-    margin-left: 93px;
+    margin-left: auto;
 }
 .text-submit{
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
     line-height: calc(16 / 14);

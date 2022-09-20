@@ -805,6 +805,7 @@ color: rgba(255, 255, 255, 0.6);
     margin-left: auto;
 }
 .text-submit{
+    display: block;
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
@@ -834,6 +835,7 @@ color: rgba(255, 255, 255, 0.6);
     color: var(--white-tx-cl);
 }
 .footer-submit-input{ 
+    background-color:var(--background-page);
     width: 360px;
     height: 50px;
     border-radius: 4px;
